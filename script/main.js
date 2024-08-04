@@ -34,7 +34,7 @@ function addUser(){
         existAlert.classList.replace('d-block','d-none');
         successAlert.classList.replace('d-none','d-block');
         setTimeout(function(){
-            window.location.href="../Login/login.html";
+            window.location.href="./Login/login.html";
         }, 2000);
         allUsers.push (newUser);
         console.log(allUsers); 
